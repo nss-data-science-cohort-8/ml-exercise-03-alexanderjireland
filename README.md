@@ -40,6 +40,7 @@ Stretch Goals:
 
 In this bonus exercise, you'll get to see this in action.
 
-Generate 1000 different linear regression fits. For each fit, choose a random sample from the full dataset of size 1000. Using the np.linspace function, generate a grid of 100 equally-spaced points between 500 and 3000 and generate predictions on those points. Plot the mean prediction, the 5th percentile, and the 95th percentile for the predictions from these thousand models. Repeat this for a decision tree model. Then do it for a decision tree model with a max_depth of 5.
+Generate 1000 different linear regression fits, where you only use sqft_living as the predictor variable. For each fit, choose a random sample from the full dataset of size 1000. 
+Using the np.linspace function, generate a grid of 100 equally-spaced points between 500 and 3000 and generate predictions on those points. Plot the mean prediction, the 5th percentile, and the 95th percentile for the predictions from these thousand models. Repeat this for a decision tree model. Then do it for a decision tree model with a max_depth of 5.
 
 How do these predictions differ? Which have the most variability?
